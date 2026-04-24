@@ -1,6 +1,6 @@
 # OpenAI Parameter Golf — what I built, what worked, what didn't
 
-OpenAI Parameter Golf is a challenge that started in March 2026. The goal is simple: train a language model that fits in 16 MB and runs training in 10 minutes on 8×H100 GPUs. The model is evaluated by how well it compresses FineWeb validation text. Lower bits-per-byte (BPB) wins.
+[OpenAI Parameter Golf is a challenge](https://github.com/openai/parameter-golf) that started in March 2026. The goal is simple: train a language model that fits in 16 MB and runs training in 10 minutes on 8×H100 GPUs. The model is evaluated by how well it compresses FineWeb validation text. Lower bits-per-byte (BPB) wins.
 
 The current record is [PR #1493](https://github.com/openai/parameter-golf/pull/1493) by "bigbag" at 1.0810 BPB. It uses a stack of techniques the community built over a few weeks: depth recurrence, parallel residuals, score-first test-time training, GPTQ with SD-clip, and code obfuscation to save artifact bytes.
 
