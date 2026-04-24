@@ -477,4 +477,6 @@ That is what I set out to do. Not what I hoped to do.
 - **Reproduction recipe**: `REPRODUCE.md` in the research repo
 - **Per-phase results**: `phase{2,3,4,5}_results.md`
 
-Follow me for the next one.
+## Contact
+
+`yevhsec1@gmail.com`
